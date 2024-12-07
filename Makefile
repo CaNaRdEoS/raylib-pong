@@ -1,13 +1,13 @@
 all: build run clean clear
 
 build:
-	g++ main.cpp -lraylib
+	g++ main.cpp -lraylib -o main
 
 run:
-	./a.out
+	./main
 
 clean:
-	rm ./a.out
+	rm ./main
 
 clear:
 	clear
